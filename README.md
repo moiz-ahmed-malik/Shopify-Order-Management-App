@@ -1,29 +1,49 @@
-Project Title:
-Shopify Order Management App (Fulfillment, Tracking, Returns)
+Overview:
 
-Description:
-This project is a Shopify app that helps store owners manage orders in one place. I built it to simplify tasks like fulfillment, tracking, and refunds. Many small businesses struggle with handling orders across different tools, so this app makes the process faster and easier.
+This project is a custom Shopify app designed to help store owners manage their orders more efficiently. It combines fulfillment, tracking, refunds, and returns into one simple dashboard.
+I built this project because many small businesses struggle to handle orders across multiple tools. This app solves that problem by providing a centralized system where everything can be managed in one place. The goal of this project was to create a production-ready app that improves workflow, reduces manual work, and saves time for merchants.
 
-Key Features and Functionality:
+Features:
+
 One-click order fulfillment
-Order tracking system
+Real-time order tracking
 Refund and return management
-Dashboard for all orders
-Integration with Shopify API
+Centralized order dashboard
+Secure authentication with Shopify
+Fast and responsive UI
 
 Tech Stack:
-TypeScript, React, Node.js, PostgreSQL, Shopify API
 
-Timeline:
-Planned idea and features
-Set up backend and database
-Built frontend UI
-Integrated Shopify API
-Tested and fixed bugs
-Deployed app
+Frontend: React, TypeScript
+Backend: Node.js
+Database: PostgreSQL
+APIs: Shopify Admin API
+Other Tools: Git, REST APIs
 
-Challenges:
-Learning Shopify API integration
-Handling real-time order updates
-Fixing database errors
-Debugging authentication issues
+How It Works:
+
+The app connects to a Shopify store using the Shopify API
+Orders are fetched and stored in the database
+The dashboard displays all orders in one place
+Users can perform actions like:
+Fulfill orders
+Track shipments
+Process refunds
+Changes are synced back to Shopify in real time
+
+Development Process:
+
+Planned features and user flow
+Set up backend server and database schema
+Built frontend UI using React
+Integrated Shopify API for order data
+Implemented authentication and permissions
+Tested functionality and fixed bugs
+Optimized performance
+
+Challenges & Learnings:
+
+Integrating with Shopify API was complex and required careful handling of authentication
+Managing real-time updates between the app and Shopify was challenging
+Debugging API errors and database issues took time
+Learned how to build scalable full-stack applications
